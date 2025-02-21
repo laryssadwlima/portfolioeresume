@@ -897,6 +897,7 @@ text {
     fill: white;
 }
 
+
 /* Tela Celulares */
 @media (max-width: 768px) {
     .skill-text {
@@ -918,24 +919,24 @@ text {
     
 
 .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .text-content {
     text-align: left;
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .text-content h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #7954B7;
     display: flex;
     align-items: center;
 }
 
 .text-content p {
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 1.4;
 }
 
@@ -946,8 +947,8 @@ text {
 }
 
 .social-icons img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     transition: transform 0.3s ease;
 }
 
@@ -984,7 +985,7 @@ text {
 }
 
 .text3, .text4, .text5, .text6, .text7 {
-    width: 100px; 
+    width: 95px; 
     font-size: 0.9em;
 }
 
@@ -1019,7 +1020,7 @@ text {
 }
 
 .starp-image {
-    width: 60px; 
+    width: 50px; 
     position: relative; 
     top: -200px; 
     left: 90%; 
@@ -1061,7 +1062,7 @@ text {
 }
 .stars {
     position: absolute;
-    width: 50px;
+    width: 40px;
 }
 
 .stars1 {
@@ -1080,7 +1081,7 @@ text {
 
 .stars3 {
     top: -40px;
-    left: 700%;
+    left: 500%;
     width: 100px;
     animation: bounce 4s infinite;
 }
@@ -1235,7 +1236,7 @@ nav {
     position: absolute;
     top: 10px;
     right: 2px;
-    z-index: 1;
+    z-index: 0.9;
 }
 
 nav ul {
